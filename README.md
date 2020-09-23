@@ -21,7 +21,7 @@ This plugin will be used to evaluate the Naive Bayes classifier model. The model
 "modelTrain": {
   "package": "@pipcook/plugins-bayesian-model-evaluate",
   "params": {
-    "expectAccracy": 0.9
+    "expectAccuracy": 0.9
   }
 },
 ```
