@@ -38,7 +38,7 @@ const bayesianModelEvaluate: ModelEvaluateType
     const feature_list = TextFeatures(text_list[1], feature_words);
     const accuracy = classifier.score(feature_list, text_list[2]);
     return {
-      pass: accuracy >= parseInt(expectAccuracy),
+      pass: accuracy >= parseFloat(expectAccuracy),
       accuracy
     };
   };
